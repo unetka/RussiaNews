@@ -1,0 +1,159 @@
+body{
+    background-color:blanchedalmond;
+    font-family: Roboto;
+}
+
+/* Top */
+
+.color-top{
+    width: 101.2%;
+    height: 54px;
+    background-color: black;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    color:aliceblue;
+    margin-bottom: 10px;
+}
+
+/* Логотип */
+
+.logo{
+    font-family: Shizuru;
+    margin-top: -60px;
+    color: aliceblue;
+    font-size: 25px;
+    
+}
+
+/* Ссылки в навигации и подвале */
+
+a{
+    font-family: Roboto;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    color: coral;
+    transition: .3s linear;
+}
+
+/* список */
+.hr{
+    text-align: right;
+    margin-top: -20px;
+    font-size: 15px;
+}
+
+ul.hr {
+    
+   }
+   ul.hr li {
+    display: inline; 
+    margin-right: 25px; 
+   }
+
+
+/* Основная часть(header) */
+
+.header{
+    border: 5px ridge gray;
+    width: 78%;
+    height: 2000px;
+    margin: 0 auto;
+    background-color: whitesmoke; 
+}
+
+h1{
+    font-size: 28px;
+    text-align: right;
+    margin-right: 25px;
+}
+
+h5{
+    color:darkslategray;
+}
+
+img{
+    margin-left: -20px;
+    text-align: center;
+    border: 5px inset gray;
+    width: 50%;
+    height: 10%;
+}
+
+/* Первая новость */
+
+.OneNews{
+    text-align: center;
+}
+
+.citiruet{
+    background-color:lightgray;
+    width: 76%;
+    margin: 0 auto;
+    text-align: center;
+    border: 5px dotted gray;
+}
+
+/* Вторая новость */
+
+
+.TwoNews{
+    text-align: center;
+}
+
+/* Кнопка */
+.btn{
+    
+    width: 205px;
+    height: 49px;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    padding-top: -10px;
+    text-decoration: none;
+    margin-left: 40%;
+    margin-top: 50px;
+    font-family: open sans;
+    color: bisque
+}
+button{
+    border-radius:  5px;
+    background:none;
+    width: 150px;
+    height: 50px;
+}
+
+button:hover{
+    background: black;
+    color: aliceblue;
+    transition: .3s linear;
+}
+button:active{
+    outline:none; 
+    border: 5px solid white;
+    transition: .3s linear;
+}
+
+.but{
+    color: black;
+    padding: 15;
+}
+.but:hover{
+    color: white;
+}
+
+/* Подвал */
+
+.footer{
+    width: 101.2%;
+    height: 35px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -25px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}

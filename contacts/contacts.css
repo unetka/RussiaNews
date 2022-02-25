@@ -1,0 +1,87 @@
+body{
+    background-color:blanchedalmond;
+    font-family: Roboto;
+}
+
+/* Top */
+
+.color-top{
+    width: 101.2%;
+    height: 54px;
+    background-color: black;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    color:aliceblue;
+    margin-bottom: 10px;
+}
+
+/* Логотип */
+
+.logo{
+    font-family: Shizuru;
+    margin-top: -60px;
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 5px;
+    
+}
+
+/* Ссылки в навигации и подвале */
+
+a{
+    font-family: Roboto;
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    color: coral;
+    transition: .3s linear;
+}
+
+.About{
+    color: lightgray;
+}
+
+/* список */
+.hr{
+    text-align: right;
+    margin-top: -20px;
+    font-size: 15px;
+}
+ul.hr {
+    
+   }
+   ul.hr li {
+    display: inline; 
+    margin-right: 20px; 
+   }
+
+/* Feader */
+
+.header{
+    border: 5px ridge gray;
+    text-align: center;
+    width: 78%;
+    height: 580px;
+    margin: 0 auto;
+    background-color: whitesmoke; 
+}
+
+h1{
+    font-size: 28px;
+    text-align: right;
+    margin-right: 25px;
+}
+
+h5{
+    color:darkslategray;
+}
+
+img{
+    margin-left: -20px;
+    text-align: center;
+    border: 5px inset gray;
+    width: 50%;
+    height: 10%;
+}
